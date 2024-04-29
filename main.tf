@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "gcs" {
-    bucket = "your-bucket-name"
+    bucket = "kdv-secret"
     prefix = "terraform/state"
   }
 }
