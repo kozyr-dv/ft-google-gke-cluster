@@ -12,3 +12,7 @@ variable "GKE_NUM_NODES" {
   description = "Number of nodes in the GKE cluster"
   type        = number
 }
+variable "GOOGLE_CREDENTIALS_JSON" {
+  description = "Base64 encoded Google credentials JSON"
+  type        = string
+}
