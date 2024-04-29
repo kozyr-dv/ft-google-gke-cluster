@@ -2,3 +2,4 @@
 *.tfvars
 .terraform/
 *.tfstate.backup
+*.google-credentials.json
